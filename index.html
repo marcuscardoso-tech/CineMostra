@@ -63,9 +63,57 @@
             <h2>Programação</h2>
         </section>
 
-        <section id="reservas">
-            <h2>Reservas</h2>
-        </section>
+        
+<section id="reservas">
+    <h2>Reserva de ingressos</h2>
+    <p>Preencha o formulário para solicitar sua reserva.</p>
+
+    <form action="#" method="get">
+        <div>
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome"
+                   placeholder="Digite seu nome" required>
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div>
+            <label for="filme">Escolha o filme:</label>
+            <select id="filme" name="filme" required>
+                <option value="">Selecione um filme</option>
+                <option value="poderoso-chefao">O Poderoso Chefão</option>
+                <option value="interestelar">Interestelar</option>
+                <option value="a-procura-da-felicidade">
+                    À Procura da Felicidade
+                </option>
+            </select>
+        </div>
+
+        <div>
+            <label for="quantidade">Quantidade de ingressos:</label>
+            <input type="number" id="quantidade"
+                   name="quantidade" min="1" max="10" required>
+        </div>
+
+        <div>
+            <label for="data">Data da sessão:</label>
+            <input type="date" id="data" name="data" required>
+        </div>
+
+        <div>
+            <label for="observacoes">Observações:</label>
+            <textarea id="observacoes" name="observacoes"
+                      rows="4" placeholder="Opcional"></textarea>
+        </div>
+
+        <button type="submit">Enviar reserva</button>
+    </form>
+</section>
+
     </main>
 
     <footer>
