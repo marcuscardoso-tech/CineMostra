@@ -1,1 +1,28 @@
-/* layout.css: reset e tipografia */
+
+/* Organização dos filmes */
+.lista-filmes {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Tamanho dos cartões */
+.lista-filmes article {
+    flex: 1 1 250px;
+    min-width: 0;
+}
+
+/* Organização do formulário */
+#reservas form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#reservas form div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
