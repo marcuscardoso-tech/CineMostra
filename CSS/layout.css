@@ -26,3 +26,37 @@
     flex-direction: column;
     gap: 5px;
 }
+
+
+/* Organização principal da página */
+main {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Aparência das seções */
+main > section {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    min-width: 0;
+}
+
+/* Filmes ocupam toda a largura */
+#filmes {
+    grid-column: 1 / -1;
+}
+
+/* Localização ocupa toda a largura */
+#localizacao {
+    grid-column: 1 / -1;
+}
+
+/* Ajuste do mapa */
+#localizacao iframe {
+    max-width: 100%;
+}
