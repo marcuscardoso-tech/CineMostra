@@ -93,3 +93,58 @@ button:hover {
     background-color: #8e1515;
     color: #ffffff;
 }
+
+
+
+/* Campos do formulário */
+#reservas input,
+#reservas select,
+#reservas textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+/* Destaque ao selecionar um campo */
+#reservas input:focus,
+#reservas select:focus,
+#reservas textarea:focus {
+    outline: 2px solid #b71c1c;
+    border-color: #b71c1c;
+}
+
+/* Botão de reserva */
+#reservas button {
+    background-color: #b71c1c;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Interação do botão */
+#reservas button:hover {
+    background-color: #8e1515;
+}
+
+/* Ajustes dos cartões */
+#filmes article {
+    overflow: hidden;
+}
+
+#filmes article img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Melhoria do mapa */
+#localizacao iframe {
+    border-radius: 8px;
+}
+
