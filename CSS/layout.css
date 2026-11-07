@@ -129,3 +129,22 @@ main > section {
         max-width: 100%;
     }
 }
+
+
+
+/* Ajuste da seção de boas-vindas */
+
+main > section:first-child {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+main > section:first-child h2 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+main > section:first-child p {
+    font-size: 17px;
+}

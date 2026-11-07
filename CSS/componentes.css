@@ -148,3 +148,20 @@ button:hover {
     border-radius: 8px;
 }
 
+
+/* Melhorias finais nos cartazes */
+
+#filmes article img {
+    width: 100%;
+    max-width: 260px;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    border-radius: 6px;
+}
+
+#filmes article p {
+    text-align: left;
+    line-height: 1.6;
+}
