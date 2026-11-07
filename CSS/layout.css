@@ -60,3 +60,72 @@ main > section {
 #localizacao iframe {
     max-width: 100%;
 }
+
+
+/* Tablets e telas menores */
+@media (max-width: 768px) {
+
+    main {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    main > section {
+        grid-column: 1 / -1;
+        padding: 20px;
+    }
+
+    .lista-filmes {
+        flex-direction: column;
+    }
+
+    .lista-filmes article {
+        flex: 1 1 auto;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 5px 10px;
+    }
+
+    #localizacao iframe {
+        width: 100%;
+    }
+}
+
+/* Celulares pequenos */
+@media (max-width: 480px) {
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+
+    main > section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    #filmes article img {
+        max-width: 100%;
+    }
+}
