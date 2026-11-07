@@ -1,1 +1,46 @@
-/* componentes.css: reset e tipografia */
+
+/* Cartões dos filmes */
+
+#filmes article {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+#filmes article img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#filmes article h3 {
+    color: #222222;
+    margin-top: 0;
+}
+
+/* Tabela de programação */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+th {
+    background-color: #b71c1c;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
