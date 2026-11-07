@@ -57,3 +57,53 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+
+
+
+/* Menu de navegação */
+
+nav {
+    background-color: #222222;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+/* Links das seções */
+
+main a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+/* Listas de conteúdo */
+
+main ul,
+main ol {
+    padding-left: 25px;
+}
+
+main li {
+    margin-bottom: 8px;
+}
