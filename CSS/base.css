@@ -1,1 +1,59 @@
-/* base.css: reset e tipografia */
+
+/* Estilos principais do CineMostra */
+
+:root {
+    --cor-primaria: #b71c1c;
+    --cor-fundo: #f5f5f5;
+    --cor-texto: #222222;
+    --cor-branca: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h2 {
+    color: var(--cor-primaria);
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+p {
+    font-size: 16px;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    padding: 25px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222222;
+    color: var(--cor-branca);
+    padding: 20px;
+    text-align: center;
+}
